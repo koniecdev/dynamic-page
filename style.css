@@ -1,1 +1,135 @@
 /* style.css */
+
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #2c3e50;
+    line-height: 1.5;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.main-nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.hero {
+    padding: 80px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #3498db, #9b59b6);
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    margin-bottom: 25px;
+}
+
+.features, .pricing, .contact {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.features h2, .pricing h2, .contact h2 {
+    margin-bottom: 30px;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.feature-card {
+    background: #fff;
+    padding: 25px 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+}
+
+.feature-card h3 {
+    margin-bottom: 10px;
+    color: #3498db;
+}
+
+.pricing-card {
+    background: #fff;
+    padding: 30px 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+}
+
+.pricing-card.highlight {
+    background: #3498db;
+    color: #fff;
+}
+
+.pricing-card h3 {
+    margin-bottom: 10px;
+}
+
+.pricing-card p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background: #e67e22;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: 0.2s;
+}
+
+.site-footer {
+    background: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
