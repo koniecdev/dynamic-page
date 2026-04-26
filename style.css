@@ -1,1 +1,31 @@
 /* style.css */
+
+.main-nav ul li a {
+    transition: 0.2s;
+}
+
+.main-nav ul li a:hover {
+    color: #3498db;
+}
+
+.feature-card {
+    transition: 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.pricing-card {
+    transition: 0.3s;
+}
+
+.pricing-card:hover {
+    transform: scale(1.03);
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    background: #d35400;
+}/* style.css */
