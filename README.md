@@ -13,11 +13,11 @@ Projekt wykonany w ramach zajęć – dynamiczny landing page z efektami hover, 
 - style.css
 
 ## Wykonane etapy
-- [ ] Struktura HTML
-- [ ] Layout CSS
-- [ ] Efekty dynamiczne
-- [ ] Responsywność
-- [ ] Scalony PR finalny
+- [x] Struktura HTML
+- [x] Layout CSS
+- [x] Efekty dynamiczne
+- [x] Responsywność
+- [x] Scalony PR finalny
 
 ## Status
-Projekt w trakcie realizacji.
+Projekt ukończony i scalony do main.
