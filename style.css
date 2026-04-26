@@ -16,4 +16,66 @@ body {
 a {
     color: inherit;
     text-decoration: none;
-}/* style.css */
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.main-nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.hero {
+    padding: 80px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #3498db, #9b59b6);
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    margin-bottom: 25px;
+}
+
+.features, .pricing, .contact {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.features h2, .pricing h2, .contact h2 {
+    margin-bottom: 30px;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 600px;
